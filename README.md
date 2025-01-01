@@ -6,7 +6,7 @@ An elegant BDA pipeline balancing on CAP | kafta, spark, hbase (hdfs), zookeeper
 ![Alt text](https://github.com/usmanshafii/bdapipeline/blob/main/pipeline.png)
 
 ## Data Goal
-The main goal is to ensure real-time analytics and historical analytics for high throughput data, entailing consistency, scalability and availability on writes.
+The main goal is to ensure real-time analytics and historical analytics for high throughput data, entailing consistency, scalability. Availability on writes is entailed.
 
 ## Architecture Design
 
@@ -63,7 +63,7 @@ Schedule Spark jobs for real-time analytics.
 Schedule Spark jobs for periodic batch analytics.
 Dashboarding
 
-#### UI
+#### Interactive Dashboarding
 ##### Dash
 Ensure user interactivity even if availability is compromised.
 
