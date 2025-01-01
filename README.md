@@ -1,7 +1,7 @@
 # bdapipeline
 An elegant BDA pipeline balancing on CAP | kafta, spark, hbase (hdfs), zookeeper, dash (dashboarding), airflow | ecommerce data
 
-### Arbaz Asif, Fazal Ur Rehman, Usman
+### Group: Arbaz Asif, Fazal Ur Rehman, Usman
 
 ![Alt text](https://github.com/usmanshafii/bdapipeline/blob/main/pipeline.png)
 
