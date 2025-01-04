@@ -1,7 +1,7 @@
 # bdapipeline
 An elegant BDA pipeline balancing on CAP | kafta, spark, hbase (hdfs), zookeeper, dash (dashboarding), airflow | ecommerce data
 
-### Group: Arbaz Asif, Fazal Ur Rehman, Usman
+### Group: Arbaz Asif ERP 25251, Fazal Ur Rehman 24961 , Usman ERP 24038
 
 ![Alt text](https://github.com/usmanshafii/bdapipeline/blob/main/pipeline.png)
 
@@ -13,11 +13,11 @@ An elegant Big Data Analytics (BDA) pipeline balancing the CAP theorem using Apa
 ![Alt text](https://github.com/usmanshafii/bdapipeline/blob/main/implementedarchitecture.jpeg)
 ## Group Members:
 
-### Arbaz Asif
+### Arbaz Asif 25251
 
-### Fazal Ur Rehman
+### Fazal Ur Rehman 24961  
 
-### Usman Shafi
+### Usman Shafi 24038
 
 
 
@@ -33,14 +33,23 @@ Historical data analysis for long-term strategy development.
 
 Our proposed solution ensures robust scalability, cost efficiency, and comprehensive data processing capabilities.
 
+## Dataset Findings
+Initially, our group aimed to use a real-world dataset to address practical problems and derive meaningful insights through our dashboard. However, we encountered a significant challenge: most of the datasets we found were focused on product-related information rather than customer-related orders. This limitation hindered our ability to conduct customer analysis and generate valuable queries for actionable insights.
+
+As a result, we decided to create our own dataset, as suggested in the project document. This turned out to be an exciting process, and we managed to generate a 4GB dataset. The dataset was highly versatile, capable of supporting BI queries, dashboards, and extensive exploratory data analysis (EDA). To achieve this, we combined the product-related data we had found with small customer-related data and crafted a dataset that closely resembled real-world scenarios.
+
+However, the size of this dataset presented challenges with Kafka ingestion. Despite spending hours, and even days, on ingestion tasks, Kafka could not load the dataset at the consumer side. We eventually decided to work with it in batches, but this approach was still not fully successful.
+
+To complicate matters further, the team member whose laptop we used for processing the dataset—Zohaib, our hostelite friend—went home the next day, taking his laptop and the dataset with him. This setback left us without access to the dataset.
+
+After this, we shifted focus to finding a customer-related dataset. Ultimately, we discovered a large e-commerce dataset of 106MB. We sampled and expanded it to create a 1GB dataset. This decision aligned with an announcement by our instructor, who mentioned that smaller datasets (e.g., 1GB) would be acceptable for the project. Please note that this announcement came while we were still working on loading the 4GB dataset into Kafka.
+
+A link to the e-commerce dataset will be provided below.
 ## Data Goals
 
 The primary goal of the pipeline is to achieve:
-
 Real-time Analytics: Ingest and process high-throughput data streams for immediate actionable insights.
-
 Historical Analysis: Enable batch processing and storage for in-depth, long-term analytics.
-
 Scalability: Dynamically adapt to changes in data volume while ensuring fault tolerance and consistency.
 
 ## Architecture Design
