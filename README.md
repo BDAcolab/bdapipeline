@@ -9,6 +9,8 @@ An elegant BDA pipeline balancing on CAP | kafta, spark, hbase (hdfs), zookeeper
 
 An elegant Big Data Analytics (BDA) pipeline balancing the CAP theorem using Apache Kafka, PySpark, HBase (with HDFS), Zookeeper, and Airflow for workflow management. This architecture is tailored for e-commerce data processing.
 
+####https://www.figma.com/design/HLJGwEViF0jrEuJ0qY5wnU/Untitled?node-id=0-1
+
 ## Group Members:
 
 ### Arbaz Asif
